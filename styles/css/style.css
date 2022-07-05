@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 60px;
+}
+
+header {
+  margin-top: 105px;
+}
+
+.bg-gr {
+  background-color: rgb(51, 50, 50);
+}
+
+.bg-gra {
+  color: rgb(255, 255, 255) !important;
+  font-weight: bold !important;
+}
+
+.bg-gra:hover {
+  color: rgb(0, 200, 255) !important;
+}
+
+#parrafoText {
+  background-color: rgb(187, 187, 187);
+  border: 5px solid rgb(35, 35, 35);
+  border-radius: 5px;
+}
+
+.footerText {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.footerText a {
+  text-decoration: none;
+  color: rgb(0, 200, 255);
+}
+
+.footerIcons {
+  display: flex;
+  background-color: rgb(51, 50, 50);
+  justify-content: center;
+}
+
+.bi-facebook:hover {
+  color: #3b5998;
+}
+
+.bi-instagram:hover {
+  color: #8a3ab9;
+}
+
+.bi-whatsapp:hover {
+  color: #25D366;
+}
+
+.bi-instagram {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.iconsFooter {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+
+/*# sourceMappingURL=style.css.map */
