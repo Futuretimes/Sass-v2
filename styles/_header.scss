@@ -8,14 +8,14 @@ header {
     background-color: rgb(51, 50, 50);
 }
 .bg-gra {
-    color: rgb(255, 255, 255) !important;
+    color: $secondColor !important;
     font-weight: bold !important;
 }
 .bg-gra:hover {
-    color: rgb(0, 200, 255) !important;
+    color: $primaryColor !important;
 }
 #parrafoText {
-    background-color: rgb(187, 187, 187);
+    background-color: $secondColor;
     border: 5px solid rgb(35, 35, 35);
     border-radius: 5px;
 }
