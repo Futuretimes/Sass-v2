@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.botons {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-1, .btn-2 {
+  background-color: #20156a;
+  padding-left: 13px;
+  padding-right: 13px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 17px;
+  border: 0;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.btn-1 a, .btn-2 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.btn-2 {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.articleBox {
+  display: flex;
+  justify-content: center;
+}
+.articleBox .box {
+  height: 25px;
+  width: 60px;
+  background-color: #20156a;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.contenedor {
+  color: #ffffff;
+  background-color: #20156a;
+  text-align: center;
+  padding: 1rem;
+  font-size: 35px;
+}
+
+.logo {
+  height: 60px;
+}
+
+header {
+  margin-top: 105px;
+}
+
+.bg-gr {
+  background-color: rgb(51, 50, 50);
+}
+
+.bg-gra {
+  color: rgb(255, 255, 255) !important;
+  font-weight: bold !important;
+}
+
+.bg-gra:hover {
+  color: rgb(0, 200, 255) !important;
+}
+
+#parrafoText {
+  background-color: rgb(255, 255, 255);
+  border: 5px solid rgb(35, 35, 35);
+  border-radius: 5px;
+}
+
+.footerText {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.footerText a {
+  text-decoration: none;
+  color: rgb(0, 200, 255);
+}
+
+.footerIcons {
+  display: flex;
+  background-color: rgb(51, 50, 50);
+  justify-content: center;
+}
+
+.bi-facebook:hover {
+  color: #3b5998;
+}
+
+.bi-instagram:hover {
+  color: #8a3ab9;
+}
+
+.bi-whatsapp:hover {
+  color: #25D366;
+}
+
+.bi-instagram {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.iconsFooter {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+
+/*# sourceMappingURL=style.css.map */

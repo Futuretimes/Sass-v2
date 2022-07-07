@@ -1,0 +1,19 @@
+@mixin sizes ($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+.articleBox {
+    display: flex;
+    justify-content: center;
+    .box {
+        @include sizes(60px, 25px);
+        background-color: #20156a;
+        color: #ffffff;
+        border: 0px;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,15 @@
+$estilos: (
+    color: #20156a,
+    color2: #ffffff,
+    centro: center,
+    tfuente: 35px,
+    rem: 1rem
+);
+
+.contenedor {
+    color: map-get($estilos, color2);
+    background-color: map-get($estilos, color);
+    text-align: map-get($estilos, centro);
+    padding: map-get($estilos, rem);
+    font-size: map-get($estilos, tfuente);
+}

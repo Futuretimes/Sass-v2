@@ -1,0 +1,32 @@
+.footerText {
+    color: $secondColor;
+    font-weight: bold;
+}
+.footerText {
+    a {
+        text-decoration: none;
+        color: $primaryColor;
+    }
+}
+.footerIcons {
+    display: flex;
+    background-color: rgb(51, 50, 50);
+    justify-content: center;
+}
+.bi-facebook:hover {
+    color: #3b5998;
+}
+.bi-instagram:hover {
+    color: #8a3ab9;
+}
+.bi-whatsapp:hover {
+    color: #25D366;
+}
+.bi-instagram {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.iconsFooter {
+    font-size: 30px;
+    color: $secondColor;
+}
